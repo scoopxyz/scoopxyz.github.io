@@ -102,7 +102,7 @@ theme_config:
   copyright:
     since: 2020
     name: Sean Cooper
-    url: https://www.example.org/john-doe
+    url: https://github.com/scoopxyz
   menu:
     Home: /
     About: /about
