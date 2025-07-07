@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  
+  
+    
+  
+  <meta name="description" content="Miscellaneous">
+
+  <title>misc</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://seancooper.xyz/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://seancooper.xyz/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://seancooper.xyz/img/apple-touch-icon.png">
+  
+  <style>
+
+  /* light mode colors */
+  body {
+    --primary-color: #5871a2;
+    --primary-pale-color: #5871a233;
+    --primary-decoration-color: #5871a210;
+    --bg-color: #ffffff;
+    --text-color: #2f3030;
+    --text-pale-color: #767676;
+    --text-decoration-color: #a9a9a9;
+    --highlight-mark-color: #5f75b020;
+
+    --callout-note-color: #5871a2;
+    --callout-tip-color: #268556;
+    --callout-important-color: #885fc9;
+    --callout-warning-color: #ab6632;
+    --callout-caution-color: #c64e4e;
+  }
+
+  /* dark mode colors */
+  body.dark {
+    --primary-color: #6f8fd1;
+    --primary-pale-color: #6f8fd166;
+    --primary-decoration-color: #6f8fd112;
+    --bg-color: #1c1c1c;
+    --text-color: #c1c1c1;
+    --text-pale-color: #848484;
+    --text-decoration-color: #5f5f5f;
+    --highlight-mark-color: #8296cb3b;
+
+    --callout-note-color: #6f8fd1;
+    --callout-tip-color: #47976f;
+    --callout-important-color: #9776cd;
+    --callout-warning-color: #ad7a52;
+    --callout-caution-color: #d06161;
+  }
+
+  /* typography */
+  body {
+    --main-font: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --code-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --homepage-max-width: 768px;
+    --main-max-width: 768px;
+    --avatar-size: 60px;
+    --font-size: 16px;
+    --line-height: 1.75;
+    --img-border-radius: 0px;
+    --detail-border-radius: 0px;
+    --dark-mode-img-brightness: 0.75;
+    --dark-mode-chart-brightness: 0.75;
+    --inline-code-border-radius: 2px;
+    --inline-code-bg-color: var(--primary-decoration-color);
+    --block-code-border-radius: 0px;
+    --block-code-border-color: var(--primary-color);
+    --detail-border-color: var(--primary-color);
+  }
+
+</style>
+
+  <link rel="stylesheet" href="https://seancooper.xyz/main.css">
+  
+
+<link id="hl" rel="stylesheet" type="text/css" href="/hl-light.css" />
+
+
+
+  
+</head>
+
+<body class="prose-page">
+  
+  <script>
+    const theme = sessionStorage.getItem('theme');
+    const match = window.matchMedia("(prefers-color-scheme: dark)").matches
+    if ((theme && theme == 'dark') || (!theme && match)) {
+      document.body.classList.add('dark');
+      const hl = document.querySelector('link#hl');
+      if (hl) hl.href = 'https://seancooper.xyz/hl-dark.css';
+    }
+  </script>
+  
+  
+<div id="wrapper">
+  <main>
+    
+<header>
+  <nav>
+    <a href="https:&#x2F;&#x2F;seancooper.xyz">← Back</a>
+  </nav>
+</header>
+
+    
+<div class="section-title">
+  
+  <h1>Miscellaneous</h1>
+  
+  
+  <p>These are a few of my favorite things...</p>
+  
+</div>
+
+
+    <div>
+      
+      <article class="prose">
+        <h2 id="bookmarks">Bookmarks</h2>
+
+
+<section class="collection-wrapper">
+
+  
+    
+
+<a href="https:&#x2F;&#x2F;www.strollswithmydog.com&#x2F;" target="_blank" rel="noreferrer noopener" class="collection entry">
+
+  
+  
+  <div class="text">
+    
+    <div class="title">Strolls With My Dog</div>
+    
+    
+    <div class="subtitle">Jack Alma</div>
+    
+  </div>
+  
+
+</a>
+
+
+  
+
+  
+    
+
+<a href="https:&#x2F;&#x2F;www.photonstophotos.net&#x2F;" target="_blank" rel="noreferrer noopener" class="collection entry">
+
+  
+  
+  <div class="text">
+    
+    <div class="title">Photons to Photos</div>
+    
+    
+    <div class="subtitle">William Claff</div>
+    
+  </div>
+  
+
+</a>
+
+
+  
+
+  
+    
+
+<a href="https:&#x2F;&#x2F;www.opencolorio.org&#x2F;" target="_blank" rel="noreferrer noopener" class="collection entry">
+
+  
+  
+  <div class="text">
+    
+    <div class="title">OpenColorIO</div>
+    
+    
+    <div class="subtitle">ASWF</div>
+    
+  </div>
+  
+
+</a>
+
+
+  
+
+  
+    
+
+<a href="https:&#x2F;&#x2F;cinematiccolor.org&#x2F;" target="_blank" rel="noreferrer noopener" class="collection entry">
+
+  
+  
+  <div class="text">
+    
+    <div class="title">Cinematic Color</div>
+    
+    
+    <div class="subtitle">Jeremy Selan</div>
+    
+  </div>
+  
+
+</a>
+
+
+  
+
+</section>
+<h2 id="books">Books</h2>
+<p>Books that have lingered longer in my mind.</p>
+
+
+<section class="collection-wrapper">
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;en&#x2F;f&#x2F;f9&#x2F;The_Vorrh.jpg" alt="The Vorrh" height="175">
+  </div>
+  <div class="text">
+    
+    <div class="title">The Vorrh</div>
+    
+    
+    <div class="subtitle">B. Catling</div>
+    
+    
+    <div class="content">The Vorrh stretches imagination until, as Terry Gilliam says, “it hurts.” That fearless strangeness keeps my sense of wonder sharp, so the book earns a permanent place on my list.</div>
+    
+    
+  </div>
+</blockquote>
+
+  
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="https:&#x2F;&#x2F;m.media-amazon.com&#x2F;images&#x2F;I&#x2F;611K5bSE15L._AC_UF1000,1000_QL80_.jpg" alt="Eye, Film and Camera in Color Photography" height="175">
+  </div>
+  <div class="text">
+    
+    <div class="title">Eye, Film and Camera in Color Photography</div>
+    
+    
+    <div class="subtitle">R. Evans</div>
+    
+    
+    <div class="content">Evan&#x27;s cutting insight and wit on the topic of photography is unmatched. The clarity with which he presents the topic and his wholistic perspective makes me envy anyone that studied or worked with him. I can only hope to be half the genius he was.</div>
+    
+    
+  </div>
+</blockquote>
+
+  
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;commons&#x2F;f&#x2F;f3&#x2F;TheOpenBoat.jpg" alt="The Open Boat" height="175">
+  </div>
+  <div class="text">
+    
+    <div class="title">The Open Boat</div>
+    
+    
+    <div class="subtitle">S. Crane</div>
+    
+    
+    <div class="content">This is a work that I thankfully happened upon in a garage sale. Its short but deeply cutting narrative immediately pulled me in, and left me with a long lasting memory of nature&#x27;s unrelenting force.</div>
+    
+    
+  </div>
+</blockquote>
+
+  
+
+</section>
+<h2 id="ttrpg">TTRPG</h2>
+<p>As a fan of off-beat TTRPGs, this a mix of rulesets and campaigns/oneshots I have found to be fun and inspiring.</p>
+
+
+<section class="collection-wrapper">
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;en&#x2F;4&#x2F;43&#x2F;Cover_of_Mothership_RPG.png" alt="Mothership" height="175">
+  </div>
+  <div class="text">
+    
+    <div class="title">Mothership</div>
+    
+    
+    <div class="subtitle">Tuesday Knight Games</div>
+    
+    
+    <div class="content">Mothership has changed me. I was unfortunately very late to the world of TTRPGs, but very thankful this was my first step. Bathed in the spirit of OSR and the mythos of Alien and Event Horizon, Mothership throws you into the depths of space without a towel...</div>
+    
+    
+    <div class="footer">Survive, Solve, Save. Choose One.</div>
+    
+  </div>
+</blockquote>
+
+  
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="https:&#x2F;&#x2F;www.indiepressrevolution.com&#x2F;xcart&#x2F;image.php?type=P&amp;id=23285" alt="Moonbase Blues" height="175">
+  </div>
+  <div class="text">
+    
+    <div class="title">Moonbase Blues</div>
+    
+    
+    <div class="subtitle">Anodyne Printware</div>
+    
+    
+    <div class="content">A one-shot for the Mothership RPG. This served as the first game I wardened (DM&#x27;d) and will last in my memory for a long time. A wonderful compact mystery horror, a moonbase overtaken by an azure aura.</div>
+    
+    
+    <div class="footer">Warning: may induce color related trauma</div>
+    
+  </div>
+</blockquote>
+
+  
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="https:&#x2F;&#x2F;img.itch.zone&#x2F;aW1hZ2UvMTYzMjI2NC8xNTM4NzIwMC5qcGc=&#x2F;original&#x2F;VxOoyO.jpg" alt="Cloud Empress" height="175">
+  </div>
+  <div class="text">
+    
+    <div class="title">Cloud Empress</div>
+    
+    
+    <div class="subtitle">Worlds by Watt</div>
+    
+    
+    <div class="content">Although I have yet to run a game with this ruleset spun off of Mothership&#x27;s Panic Engine, I am already absorbed into the imaginative world of the Hereafter. I cannot wait to dive in.</div>
+    
+    
+  </div>
+</blockquote>
+
+  
+
+</section>
+<h2 id="video-games">Video Games</h2>
+
+
+<section class="collection-wrapper">
+
+  
+    
+
+<blockquote class="collection entry">
+
+  
+  <div class="icon-wrapper">
+    <img class="icon no-lightense" src="https:&#x2F;&#x2F;cdn2.steamgriddb.com&#x2F;icon&#x2F;b3e3e393c77e35a4a3f3cbd1e429b5dc&#x2F;32&#x2F;64x64.png" alt="icon" width="16" height="16" />
+  </div>
+  
+  
+  <div class="text">
+    
+    <div class="title">Cyberpunk 2077</div>
+    
+    
+    <div class="subtitle">100+ hrs</div>
+    
+  </div>
+  
+
+</blockquote>
+
+
+  
+
+  
+    
+
+<blockquote class="collection entry">
+
+  
+  <div class="icon-wrapper">
+    <img class="icon no-lightense" src="https:&#x2F;&#x2F;cdn2.steamgriddb.com&#x2F;icon&#x2F;460295ce15c9440d9be6fb474387a285&#x2F;32&#x2F;64x64.png" alt="icon" width="16" height="16" />
+  </div>
+  
+  
+  <div class="text">
+    
+    <div class="title">No Man&#x27;s Sky</div>
+    
+    
+    <div class="subtitle">100+ hrs</div>
+    
+  </div>
+  
+
+</blockquote>
+
+
+  
+
+  
+    
+
+<blockquote class="collection entry">
+
+  
+  <div class="icon-wrapper">
+    <img class="icon no-lightense" src="https:&#x2F;&#x2F;cdn2.steamgriddb.com&#x2F;icon&#x2F;9357e8d9b96de4920a57ba55651c5687&#x2F;32&#x2F;64x64.png" alt="icon" width="16" height="16" />
+  </div>
+  
+  
+  <div class="text">
+    
+    <div class="title">Hell Let Loose</div>
+    
+    
+    <div class="subtitle">100+ hrs</div>
+    
+  </div>
+  
+
+</blockquote>
+
+
+  
+
+  
+    
+
+<blockquote class="collection entry">
+
+  
+  <div class="icon-wrapper">
+    <img class="icon no-lightense" src="https:&#x2F;&#x2F;cdn2.steamgriddb.com&#x2F;icon&#x2F;8399caac6d7e6240600ace476e2c83e7&#x2F;32&#x2F;64x64.png" alt="icon" width="16" height="16" />
+  </div>
+  
+  
+  <div class="text">
+    
+    <div class="title">Days Gone</div>
+    
+    
+    <div class="subtitle">60+ hrs</div>
+    
+  </div>
+  
+
+</blockquote>
+
+
+  
+
+  
+    
+
+<blockquote class="collection entry">
+
+  
+  <div class="icon-wrapper">
+    <img class="icon no-lightense" src="https:&#x2F;&#x2F;cdn2.steamgriddb.com&#x2F;icon&#x2F;d6140c51d9f0507b9a747e63e335be7d&#x2F;32&#x2F;64x64.png" alt="icon" width="16" height="16" />
+  </div>
+  
+  
+  <div class="text">
+    
+    <div class="title">Disco Elysium</div>
+    
+    
+    <div class="subtitle">60+ hrs</div>
+    
+  </div>
+  
+
+</blockquote>
+
+
+  
+
+  
+    
+
+<blockquote class="collection entry">
+
+  
+  <div class="icon-wrapper">
+    <img class="icon no-lightense" src="https:&#x2F;&#x2F;cdn2.steamgriddb.com&#x2F;icon&#x2F;d50bd39fbde1ad92dcc753562cfd5ef3&#x2F;32&#x2F;64x64.png" alt="icon" width="16" height="16" />
+  </div>
+  
+  
+  <div class="text">
+    
+    <div class="title">Still Wakes the Deep</div>
+    
+    
+  </div>
+  
+
+</blockquote>
+
+
+  
+
+</section>
+
+      </article>
+
+      
+      
+
+      
+    </div>
+
+    
+
+
+<footer>
+  <div class="left">
+    <div class="copyright">
+      © 2025 Sean Cooper
+      
+      <span>|</span>
+      Built with <a href="https://www.getzola.org" rel="noreferrer" target="_blank">zola</a> and <a href="https://github.com/isunjn/serene" rel="noreferrer" target="_blank">serene</a>
+      
+    </div>
+  </div>
+
+  <div class="right">
+    
+
+    
+    
+    
+    <button id="theme-toggle" aria-label="theme switch">
+      <span class="moon-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"><path d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27098 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9187 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08133 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z" fill="currentColor"></path></svg>
+</span>
+      <span class="sun-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"><path d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z" fill="currentColor"></path></svg>
+</span>
+    </button>
+    
+  </div>
+</footer>
+
+
+
+  </main>
+</div>
+
+  
+<script src="/js/lightense.min.js"></script>
+
+
+  <script src="https://seancooper.xyz/js/main.js"></script>
+</body>
+
+</html>

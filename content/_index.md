@@ -25,4 +25,4 @@ date_format = "%b %-d, %Y"
 
 +++
 
-With ten years designing imaging pipelines for cinema cameras, visual effects and animation. I calibrate sensors, simulate imaging chains, build workflows, and ship tools that keep {{ colour() }} accurate from set to screen, even as technology evolves. Background in {{ colour() }} science, algorithm design, and software engineering; focus on reliable, production-ready solutions teams trust.
+With ten years designing imaging pipelines for cinema cameras, visual effects and animation. I calibrate sensors, simulate imaging chains, build workflows, and ship tools that keep color accurate from set to screen, even as technology evolves. Background in color science, algorithm design, and software engineering; focus on reliable, production-ready solutions teams trust.
