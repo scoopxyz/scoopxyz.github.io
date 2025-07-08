@@ -10,7 +10,7 @@ reaction = true
 +++
 
 <p style="text-align: center;">
-  <img src="assets/profile.jpeg" alt="Profile picture.">
+  <img src="/assets/profile.jpeg" alt="Profile picture.">
 </p>
 
 A color scientist and senior imaging engineer with ten years shaping how moving-picture color is captured, computed, and delivered. I work from the first photo-electron on the sensor to the last photon off a screen, making sure every stage of the imaging chain works to preserve and shape color as data *and* story.
