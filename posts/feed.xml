@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>posts</title>
+	<subtitle>Demo posts page for zola-theme-serene</subtitle>
+	<link href="https://seancooper.xyz/posts/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://seancooper.xyz/posts/"/>
+	<updated>2025-07-06T00:00:00+00:00</updated>
+	<id>https://seancooper.xyz/posts/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Hello World</title>
+		<published>2025-07-06T00:00:00+00:00</published>
+		<updated>2025-07-06T00:00:00+00:00</updated>
+		<link href="https://seancooper.xyz/posts/post001/" type="text/html"/>
+		<id>https://seancooper.xyz/posts/post001/</id>
+		<content type="html">&lt;p&gt;Hello,&lt;&#x2F;p&gt;
+&lt;p&gt;Welcome to the blank page before the posts arrive. I’ll use this space to share notes on colour science, imaging pipelines, and the curiosities that surface along the way. Expect concise entries, posted when there’s something worth your time.&lt;&#x2F;p&gt;
+&lt;p&gt;Thanks for stopping by — more soon.&lt;&#x2F;p&gt;
+&lt;p&gt;Sean&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
