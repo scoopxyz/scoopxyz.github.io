@@ -1,4 +1,4 @@
-# Try to trigger action, again
+# Try to trigger action
 # The URL the site will be built for
 base_url = "https://seancooper.xyz"
 
